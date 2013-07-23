@@ -14,6 +14,7 @@ scons-time.py
 scons.py
 sconsign.py
 todo
+_build
 
 # doc/
 doc/jsoncpp-doxygen-warning.log
