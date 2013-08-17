@@ -33,20 +33,3 @@ src/jsontestrunner/VTune
 # src/lib_json/
 src/lib_json/VTune
 
-# test/
-test/*.actual
-test/*.actual-rewrite
-test/*.process-output
-test/*.rewrite
-test/*.pyc
-
-# test/data/
-test/data/*.actual
-test/data/*.actual-rewrite
-test/data/*.process-output
-test/data/*.rewrite
-
-# test/jsonchecker/
-test/jsonchecker/*.actual
-test/jsonchecker/*.actual-rewrite
-test/jsonchecker/*.rewrite

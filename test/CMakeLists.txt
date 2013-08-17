@@ -3,8 +3,7 @@ if( PYTHON_EXECUTABLE )
   # There is an output regression comparison in the Python test runner, so
   # use it.
   add_test( NAME ReaderWriterTests
-    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-    COMMAND ${PYTHON_EXECUTABLE} runjsontests.py $<TARGET_FILE:jsontestrunner>
+    COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/runjsontests.py $<TARGET_FILE:jsontestrunner>
     )
 endif()
 
